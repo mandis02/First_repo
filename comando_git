@@ -25,9 +25,9 @@ Comandos basicos
 *git restore --stage <file> //descartas los cambios que estan en etapa de commit
 *git restore //regresas los cambios a working directory
 *git mv namefile new namefile //Renombra el archivo y sube los cambios al estado de staging area para hacer commit
-git status -s //una forma mas simple de ver los cambios que le hemos hecho a nuestro repo
-git diff //muestra la diferencia entre el archivo viejo y los cambios en el archivo nuevo, nos va a mostrar todos los cambios que hemos hecho pero que aun NO hemos movido a la etapa de staged
-git diff --staged // muestra los cambios que se le hicieron al archivo, que ya estan en la etapa de staged
+*git status -s //una forma mas simple de ver los cambios que le hemos hecho a nuestro repo
+*git diff //muestra la diferencia entre el archivo viejo y los cambios en el archivo nuevo, nos va a mostrar todos los cambios que hemos hecho pero que aun NO hemos movido a la etapa de staged
+*git diff --staged // muestra los cambios que se le hicieron al archivo, que ya estan en la etapa de staged
 *git log //muestra el historial de commits que se han realizado al repo, muestra el autor del commit, la fecha y hora, un id del commit y el nombre del commit
 *git log --oneline //muestra el historial de commits, mostrando solo el id del commit y el nombre del commit
 *git branch //muestra la rama en la que estamos trabajando
