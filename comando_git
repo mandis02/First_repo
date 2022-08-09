@@ -41,6 +41,3 @@ En VS code podemos agregar un archivo para ignorar archivos que no queremos que 
 
 
 Podemos realizar un BRANCH (rama) a nuestro repo principal si es que se le quieren realizar cambios sin afectar la rama principal, y cuando se haya terminado de realizar el codigo de la rama secundaria, solicitar un MERGE al autor de la rama principal, para que se modifiquen los archivos en la rama principal con los archivos de la rama secundaria y seguir trabajando sobre la rama principal
-
-Token para 1er repo
-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
