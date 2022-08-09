@@ -1,0 +1,46 @@
+Git es un sistema de control de versiones:
+
+*.- Coordina el trabajo con multiples desarrolladores
+*.- Quien y cuando hace los cambios
+*.- Puedes navegar entre versiones desde el inicio de tu repo (Historial)
+*.- repos locales y remotos (Almacenar codigo)
+*.- 
+
+En git hay tres estados para mis codigos 
+*Working directory
+*Staging area
+*repository
+
+Comandos basicos
+
+*git init //Para crear un proyecto nuevo con git 
+*git add <file> // para pasar el documento de working directory a staging area
+*git status //en que estado estan nuestros archivos (Puede estar en working directory o en alguno de los 3 estados
+*git commit // pasar mis archivos del staging area a mi repositorio, como crear mi primer snapshot
+*git commit -m "Titulo Commit"
+*git push //Para subir mis archivos a un repositorio remoto
+*git push -u origin master //Sube los archivos de mi repo local a mi repo remoto
+*git pull //para bajar mis archivos de un repositorio remoto a mi computadora
+*git clone // para clonar un repositorio remoto a mi computadora
+*git restore --stage <file> //descartas los cambios que estan en etapa de commit
+*git restore //regresas los cambios a working directory
+*git mv namefile new namefile //Renombra el archivo y sube los cambios al estado de staging area para hacer commit
+git status -s //una forma mas simple de ver los cambios que le hemos hecho a nuestro repo
+git diff //muestra la diferencia entre el archivo viejo y los cambios en el archivo nuevo, nos va a mostrar todos los cambios que hemos hecho pero que aun NO hemos movido a la etapa de staged
+git diff --staged // muestra los cambios que se le hicieron al archivo, que ya estan en la etapa de staged
+*git log //muestra el historial de commits que se han realizado al repo, muestra el autor del commit, la fecha y hora, un id del commit y el nombre del commit
+*git log --oneline //muestra el historial de commits, mostrando solo el id del commit y el nombre del commit
+*git branch //muestra la rama en la que estamos trabajando
+*git checkout -b branchname // agrega una nueva rama el repositorio
+*git merge file //hace un merge de una rama hacia la rama principal (master)
+*git remote add origin URL // crea un repositorio remoto en github
+
+
+
+En VS code podemos agregar un archivo para ignorar archivos que no queremos que se suban a nuestro repositorio solo agregamos un archivo a la carpeta de nuestro repo llamado .gitignore, dentro del archivo colocamos los archivos que no deseamos sean colocados en el repositorio
+
+
+Podemos realizar un BRANCH (rama) a nuestro repo principal si es que se le quieren realizar cambios sin afectar la rama principal, y cuando se haya terminado de realizar el codigo de la rama secundaria, solicitar un MERGE al autor de la rama principal, para que se modifiquen los archivos en la rama principal con los archivos de la rama secundaria y seguir trabajando sobre la rama principal
+
+Token para 1er repo
+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
